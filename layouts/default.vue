@@ -15,3 +15,8 @@ export default {
   }
 }
 </script>
+<style>
+@import url('~/assets/styles/main.css');
+@import url('~/assets/styles/color.css');
+@import url('~/assets/styles/typography.css');
+</style>
