@@ -1,9 +1,5 @@
 <svg width="1920" height="175" viewBox="0 0 1920 175" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-<circle cx="200" cy="105" r="10" fill="#C4C4C4"/>
-<circle cx="700" cy="35" r="10" fill="#C4C4C4"/>
-<circle cx="1150" cy="75" r="10" fill="#C4C4C4"/>
-<circle cx="1800" cy="57" r="10" fill="#C4C4C4"/>
 
 <path d="M0.5 0.999023C78.1667 62.999 223.2 141.899 346 119.499C499.5 91.499 625.5 9.49902 744.5 44.499C863.5 79.499 891.5 199.5 966 169.5C1040.5 139.5 1249 4.24186 1317 12.5C1387 21.001 1573.06 127.862 1629 139.499C1691.5 152.5 1849.5 -5.49993 1919 5.5" stroke="url(#paint0_linear_28_519)"/>
 <defs>
@@ -15,4 +11,9 @@
 <stop offset="1" stop-color="#1905DA"/>
 </linearGradient>
 </defs>
+
+<circle cx="200" cy="105" r="10" fill="#C4C4C4"/>
+<circle cx="700" cy="35" r="10" fill="#C4C4C4"/>
+<circle cx="1150" cy="75" r="10" fill="#C4C4C4"/>
+<circle cx="1800" cy="57" r="10" fill="#C4C4C4"/>
 </svg>
