@@ -2,11 +2,11 @@
 <div>
     <v-container>
         <v-row justify="center my-16">
-            <p class="title-text title-color mt-10 mb-16">Our Projects</p>
+            <p class="title-text title-color mt-10">Our Projects</p>
         </v-row>
         <v-row>
             <v-col align="center" cols="12" lg="4" md="6" v-for="(item, i) in projects" :key="i">
-                <v-card width="250" height="300" class="mission-card" dark>
+                <v-card width="250" height="300" class="mission-card mt-16" dark>
                     <v-col align="center">
                         <div class="mission-card-junior">
                             <v-icon color="white" x-large class="mt-5">{{item.icon}}</v-icon>
