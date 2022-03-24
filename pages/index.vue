@@ -1,7 +1,7 @@
 <template>
   <div>
     <HomeIntro />
-    <HomeMission />
+    <HomeMission id="mission"/>
     <HomeProject />
     <HomeVesting />
     <HomeRoadmap />
