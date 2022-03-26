@@ -11,7 +11,9 @@
             </v-btn>
             <v-btn text>FAQs</v-btn>
             <v-spacer></v-spacer>
-            <v-btn outlined rounded @click="$store.commit('vesting/setTokenVesting',true)">Start Token Vesting</v-btn>
+            <v-btn outlined rounded class="ml-3" @click="$router.push({path:'/token-vesting'})">Start Token Vesting</v-btn>
+
+            <!-- <v-btn outlined rounded @click="$store.commit('vesting/setTokenVesting',true)">Start Token Vesting</v-btn> -->
         </v-row>
         <v-btn class="hidden-lg-and-up" light text dark @click.stop="drawer = !drawer">
             <v-icon>mdi-menu</v-icon>
@@ -23,7 +25,7 @@
             <v-list-item>
                 <v-list-item-title>Roadmap</v-list-item-title>
             </v-list-item>
-            
+
             <v-list-item>
                 <v-list-item-title>Open Source Products</v-list-item-title>
             </v-list-item>
@@ -31,8 +33,9 @@
             <v-list-item>
                 <v-list-item-title>FAQs</v-list-item-title>
             </v-list-item>
+            <v-btn outlined rounded small class="ml-3" @click="$router.push({path:'/token-vesting'})">Start Token Vesting</v-btn>
 
-            <v-btn outlined rounded small class="ml-3" @click="$store.commit('vesting/setTokenVesting',true)">Start Token Vesting</v-btn>
+            <!-- <v-btn outlined rounded small class="ml-3" @click="$store.commit('vesting/setTokenVesting',true)">Start Token Vesting</v-btn> -->
 
         </v-list>
     </v-navigation-drawer>
@@ -43,7 +46,9 @@
 <script>
 import Token from '../home/tokenVesting.vue';
 export default {
-    components:{Token},
+    components: {
+        Token
+    },
     data() {
         return {
             drawer: false
